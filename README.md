@@ -38,11 +38,11 @@ Esse documento é uma lista dos comandos básicos de Git, contendo uma explicaç
 
     Esse comando possui diversos parâmetros que definem a pasta ou arquivo a serem colocados na Staging Area. Abaixo está algum deles:
 
-        'git add .'  -> Adiciona todas as alterações do seu diretório de trabalho atual e subdiretórios.
+        git add .  -> Adiciona todas as alterações do seu diretório de trabalho atual e subdiretórios.
 
-        'git add main.py' -> Adiciona somente o arquivo citado. No caso se tivesse 10 arquivos diferentes, somente o arquivo "main.py" seria adicionado.
+        git add main.py -> Adiciona somente o arquivo citado. No caso se tivesse 10 arquivos diferentes, somente o arquivo "main.py" seria adicionado.
 
-        'git add Desktop/' -> Adiciona todas as alterações de um diretório de trabalho específico.
+        git add Desktop/ -> Adiciona todas as alterações de um diretório de trabalho específico.
 <br>
 
 3. `git commit`
