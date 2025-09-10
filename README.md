@@ -51,7 +51,7 @@ Esse documento é uma lista dos comandos básicos de Git, contendo uma explicaç
 
     A mensagem do commit é importante para saber o quê estava nesse commit e o porquê do mesmo. 
 
-        'git commit -m "Mensagem descritiva"'
+        git commit -m "Mensagem descritiva"
 <br>
 
 4. `git push`
@@ -60,7 +60,7 @@ Esse documento é uma lista dos comandos básicos de Git, contendo uma explicaç
 
     Sintaxe comum:
 
-        'git push <remote> <branch>'
+        git push <remote> <branch>
         
     'remote' -> Nome do repositório remoto. Por padrão esse nome é "origin".
     
@@ -68,7 +68,7 @@ Esse documento é uma lista dos comandos básicos de Git, contendo uma explicaç
 
     Assim formando o comando:
 
-        'git push origin main'
+        git push origin main
 <br>
 
 5. `git pull`
@@ -86,9 +86,9 @@ Esse documento é uma lista dos comandos básicos de Git, contendo uma explicaç
 
     O comando pode ser usado de diferente formas fornecendo diferentes funcionalidades, sendo elas:
 
-        'git branch' -> Lista todas as branches existentes no repositório local.
+        git branch -> Lista todas as branches existentes no repositório local.
 
-        'git branch <nome-da-branch>' ->  Cria uma nova branch, do ponto exato da branch atual.
+        git branch <nome-da-branch> ->  Cria uma nova branch, do ponto exato da branch atual.
 <br>
 
 7. `git checkout`
@@ -97,13 +97,15 @@ Esse documento é uma lista dos comandos básicos de Git, contendo uma explicaç
 
     O comando básico permite que você altere entre as branches existentes no repositório local, sendo ele: 
 
-        'git checkout <nome-da-branch>'
+        git checkout <nome-da-branch>
 
-        'git checkout ajuste_pagamento'
+    Exemplo:
+
+        git checkout ajuste_pagamento
 
     Assim, toda alteração realizada será registrada na linha do tempo da branch "ajuste_pagamento" sem alterar nenhuma outra branch.
     <br><br>
     Esse comando possui um atalho que permite que você crie uma branch e mude para ele imediatamente em um passo só.
     
-        'git checkout -b ajuste_relatorios'
+        git checkout -b ajuste_relatorios
     
